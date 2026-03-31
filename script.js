@@ -13,6 +13,7 @@
 
 
 
+
 let balance = 0;
 let totalMined = 0;
 let prestigeMultiplier = 1;
