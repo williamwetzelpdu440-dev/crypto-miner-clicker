@@ -1,4 +1,5 @@
 
+
 # Crypto Miner Clicker
 
 A small, fun idle/clicker game about mining Bitcoin. Built with pure HTML, CSS, and JavaScript.
