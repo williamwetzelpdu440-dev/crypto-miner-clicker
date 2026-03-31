@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Miner Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Crypto Miner Clicker</h1>
+    
+    <div class="balance">
+      <span id="balance">0</span> BTC
+    </div>
 
+    <div class="miner">
+      <button id="mine-btn">💎 MINE BITCOIN</button>
+    </div>
+
+    <div class="stats">
+      <p>Per second: <span id="per-second">0</span> BTC</p>
+      <p>Total mined: <span id="total-mined">0</span> BTC</p>
+    </div>
+
+    <div class="shop">
+      <h2>Shop</h2>
+      <div class="upgrade" data-cost="15" data-income="0.1" data-name="GPU">
+        <span>GPU Miner</span>
+        <span class="price">15 BTC</span>
+        <span class="count" id="count-gpu">0</span>
+      </div>
+      <div class="upgrade" data-cost="100" data-income="1" data-name="Rig">
+        <span>Mining Rig</span>
+        <span class="price">100 BTC</span>
+        <span class="count" id="count-rig">0</span>
+      </div>
+      <div class="upgrade" data-cost="500" data-income="8" data-name="ASIC">
+        <span>ASIC Farm</span>
+        <span class="price">500 BTC</span>
+        <span class="count" id="count-asic">0</span>
+      </div>
+    </div>
+
+    <button id="prestige-btn" class="prestige">Prestige (Reset for multiplier)</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
